@@ -1,0 +1,3 @@
+val: C:/stage defensie/FLIR_ADAS_1_3/val/flir_subset_person_yolo/images
+nc: 1
+names: ['person']

@@ -1,3 +1,44 @@
+# =====================================================
+# FLIR / YOLOv7 project – Jens
+# =====================================================
+
+# --- Datasets (licensed / large / NEVER commit) ---
+FLIR_ADAS_1_3/
+**/FLIR_ADAS_1_3/**
+
+# --- Generated subsets and outputs ---
+thermal_8_bit_cat1_person/
+flir_cat1_person_coco_baseline/
+pred_*/
+runs/
+
+# --- Images and videos (YOLO outputs, visualizations) ---
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+*.mp4
+*.avi
+
+# --- Model weights (large binaries) ---
+*.pt
+*.weights
+*.onnx
+*.engine
+*.torchscript
+
+# --- Python cache ---
+__pycache__/
+*.pyc
+
+# --- IDE / environment ---
+.vscode/
+.env
+.venv/
+venv/
+
 # Repo-specific GitIgnore ----------------------------------------------------------------------------------------------
 *.jpg
 *.jpeg
