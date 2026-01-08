@@ -10,7 +10,7 @@
 
 ## Dataset
 
-The FLIR ADAS v1.3 dataset is **not included** in this repository due to licensing
+The FLIR ADAS v1.3 dataset is not included in this repository due to licensing
 and privacy restrictions. The dataset must be obtained directly from FLIR and placed
 in the expected directory structure.
 
